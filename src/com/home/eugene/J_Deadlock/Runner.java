@@ -51,7 +51,7 @@ public class Runner {
         Random random = new Random();
         for (int i = 0; i < 10000; i++) {
             acquireLocks(lock2, lock1);
-//            lock2.lock();    <--- this will cause deadlock because 
+//            lock2.lock();    <--- this will cause deadlock because second thread 
 //            lock1.lock();
             try {
                 Account.transfer(acc2, acc1, random.nextInt(100));
