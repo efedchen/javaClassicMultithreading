@@ -1,4 +1,4 @@
-package com.home.eugene.reEntrantLocks;
+package com.home.eugene.I_reEntrantLocks;
 
 import java.util.Scanner;
 import java.util.concurrent.locks.Condition;

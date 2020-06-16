@@ -1,4 +1,4 @@
-package com.home.eugene.reEntrantLocks;
+package com.home.eugene.I_reEntrantLocks;
 
 public class App1 {
     public static void main(String[] args) {
